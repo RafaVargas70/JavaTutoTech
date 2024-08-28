@@ -16,6 +16,9 @@ public class jpAddTutoria extends javax.swing.JPanel {
     public jpAddTutoria() {
         initComponents();
     }
+    
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

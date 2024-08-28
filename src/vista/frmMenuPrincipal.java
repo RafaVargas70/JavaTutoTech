@@ -24,7 +24,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
     public static void initfrmMenuPrincipal(){
         frmMenuPrincipal vista = new frmMenuPrincipal();
         ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista);
-        
+
         vista.setVisible(true);
       
         
