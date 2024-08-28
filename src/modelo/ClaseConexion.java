@@ -1,12 +1,10 @@
-package modelo;
+package Modelo;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
+import java.sql.*;
 
 public class ClaseConexion {
-    //Variables para la cadena de conexión
+//Variables para la cadena de conexión
     private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
     private static final String USUARIO = "system";
     private static final String CONTRASENA = "desarrollo";
@@ -28,4 +26,5 @@ public class ClaseConexion {
               return null;
         }
     }
+    
 }
