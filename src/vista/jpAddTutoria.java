@@ -4,6 +4,11 @@
  */
 package vista;
 
+import controlador.ctrlMenuPrincipal;
+import modelo.Tutoria;
+
+
+
 /**
  *
  * @author USUARIO
@@ -15,8 +20,18 @@ public class jpAddTutoria extends javax.swing.JPanel {
      */
     public jpAddTutoria() {
         initComponents();
+        
+        jpAddTutoria panel = this;
+        frmMenuPrincipal vista = new frmMenuPrincipal();
+        Tutoria modelo = new Tutoria();
+        
+        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista, panel, modelo);
     }
     
+    
+    
+    
+
     
     
 

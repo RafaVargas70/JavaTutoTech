@@ -3,6 +3,8 @@ package Modelo;
 
 import java.sql.*;
 
+
+
 public class ClaseConexion {
 //Variables para la cadena de conexión
     private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";

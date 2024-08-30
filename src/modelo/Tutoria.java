@@ -1,10 +1,11 @@
 package modelo;
 
-import com.sun.jdi.connect.spi.Connection;
 
-
+import Modelo.ClaseConexion;
 import java.sql.*;
 import java.util.UUID;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
 
 
 
@@ -44,19 +45,51 @@ public class Tutoria {
     //METODOS///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     //GUARDAR------------------------------------------------------------------------------------------------------------------
-    public void GuardarTuto(){
+           public void GuardarTuto() {
+        //Creamos una variable igual a ejecutar el método de la clase de conexión
         Connection conexion = ClaseConexion.getConexion();
-        
-        try{
+        try {
+            //Creamos el PreparedStatement que ejecutará la Query
             PreparedStatement addTutoria = conexion.prepareStatement("INSERT INTO tbTutoria(idTutoria, nombreTutoria, descripcionTutoria) VALUES (?, ?, ?)");
+            //Establecer valores de la consulta SQL
             addTutoria.setString(1, UUID.randomUUID().toString());
             addTutoria.setString(2, getNombreTutoria());
             addTutoria.setString(3, getDescripcionTutoria());
-
+            
             //Ejecutar la consulta
             addTutoria.executeUpdate();
         } catch (SQLException ex) {
             System.out.println("este es el error en el modelo:metodo guardar " + ex);
         }
     }
+           
+           //mostrar
+           public void Mostrar(JTable tabla) {
+        //Creamos una variable de la clase de conexion
+        Connection conexion = ClaseConexion.getConexion();
+        //Definimos el modelo de la tabla
+        DefaultTableModel modeloDeDatos = new DefaultTableModel();
+        modeloDeDatos.setColumnIdentifiers(new Object[]{"idTutoria", "nombreTutoria", "descripcionTutoria"});
+        try {
+            //Creamos un Statement
+            Statement statement = conexion.createStatement();
+            //Ejecutamos el Statement con la consulta y lo asignamos a una variable de tipo ResultSet
+            ResultSet rs = statement.executeQuery("select * from tbTutoria;");
+            //Recorremos el ResultSet
+            while (rs.next()) {
+                //Llenamos el modelo por cada vez que recorremos el resultSet
+                modeloDeDatos.addRow(new Object[]{rs.getString("IdTutoria"), 
+                    rs.getString("nombreTutoria"), 
+                    rs.getString("descripcionTutoria")});
+            }
+            //Asignamos el nuevo modelo lleno a la tabla
+            tabla.setModel(modeloDeDatos);
+        } catch (Exception e) {
+            System.out.println("Este es el error en el modelo, metodo mostrar " + e);
+        }
+    }
+       
+           
+           
+           
 }
