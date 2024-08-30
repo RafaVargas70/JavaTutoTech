@@ -74,11 +74,11 @@ public class Tutoria {
             //Creamos un Statement
             Statement statement = conexion.createStatement();
             //Ejecutamos el Statement con la consulta y lo asignamos a una variable de tipo ResultSet
-            ResultSet rs = statement.executeQuery("select * from tbTutoria;");
+            ResultSet rs = statement.executeQuery("select * from tbTutoria");
             //Recorremos el ResultSet
             while (rs.next()) {
                 //Llenamos el modelo por cada vez que recorremos el resultSet
-                modeloDeDatos.addRow(new Object[]{rs.getString("IdTutoria"), 
+                modeloDeDatos.addRow(new Object[]{rs.getString("idTutoria"), 
                     rs.getString("nombreTutoria"), 
                     rs.getString("descripcionTutoria")});
             }

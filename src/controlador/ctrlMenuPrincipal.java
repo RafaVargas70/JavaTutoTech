@@ -22,6 +22,7 @@ public class ctrlMenuPrincipal implements MouseListener{
         
         vista.btnIrTutoria.addMouseListener(this);
         panel.btnAgregar.addMouseListener(this);
+        modelo.Mostrar(panel.jtbTutoria);
     }
 
     @Override
