@@ -42,7 +42,7 @@ public class Tutoria {
         this.descripcionTutoria = descripcionTutoria;
     }
     
-    //METODOS///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //METODOS////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     //GUARDAR------------------------------------------------------------------------------------------------------------------
            public void GuardarTuto() {
@@ -63,7 +63,7 @@ public class Tutoria {
         }
     }
            
-           //mostrar
+           //MOSTRAR////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
            public void Mostrar(JTable tabla) {
         //Creamos una variable de la clase de conexion
         Connection conexion = ClaseConexion.getConexion();
@@ -89,7 +89,24 @@ public class Tutoria {
         }
     }
        
-           
+           //ELIMINAR//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            public void Eliminar(JTable tabla) {
+        //Creamos una variable igual a ejecutar el método de la clase de conexión
+        Connection conexion = ClaseConexion.getConexion();
+ 
+        //obtenemos que fila seleccionó el usuario
+        int filaSeleccionada = tabla.getSelectedRow();
+        //Obtenemos el id de la fila seleccionada
+        String miId = tabla.getValueAt(filaSeleccionada, 0).toString();
+        //borramos 
+        try {
+            PreparedStatement deleteEstudiante = conexion.prepareStatement("delete from tbTutoria where idTutoria = ?");
+            deleteEstudiante.setString(1, miId);
+            deleteEstudiante.executeUpdate();
+        } catch (Exception e) {
+            System.out.println("este es el error metodo de eliminar" + e);
+        }
+    }
            
            
 }

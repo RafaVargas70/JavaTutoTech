@@ -3,6 +3,7 @@ package controlador;
 import java.awt.Panel;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import javax.swing.JOptionPane;
 import modelo.Tutoria;
 import vista.frmMenuPrincipal;
 import vista.jpAddTutoria;
@@ -23,6 +24,7 @@ public class ctrlMenuPrincipal implements MouseListener{
         vista.btnIrTutoria.addMouseListener(this);
         panel.btnAgregar.addMouseListener(this);
         modelo.Mostrar(panel.jtbTutoria);
+        panel.btnEliminar.addMouseListener(this);
     }
 
     @Override
@@ -44,6 +46,22 @@ public class ctrlMenuPrincipal implements MouseListener{
             
             
             modelo.GuardarTuto();
+        }
+        
+        if(e.getSource() == panel.btnEliminar){
+            modelo.Eliminar(panel.jtbTutoria);
+            modelo.Mostrar(panel.jtbTutoria);
+
+            
+            
+            
+            
+            
+            //validaciones---------------------------------------------------------------------------------------
+            if(panel.txtNombre.getText().isEmpty() || panel.txtDescripcion.getText().isEmpty()){
+                //esto es un alert
+                JOptionPane.showMessageDialog(vista, "Llene todos los campos");
+            }
         }
     }
 
