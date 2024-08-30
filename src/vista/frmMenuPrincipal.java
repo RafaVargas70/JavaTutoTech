@@ -5,6 +5,7 @@
 package vista;
 
 import controlador.ctrlMenuPrincipal;
+import modelo.Tutoria;
 
 /**
  *
@@ -17,14 +18,19 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
      */
     public frmMenuPrincipal() {
         initComponents();
+        this.setLocationRelativeTo(this);
+
     }
 
     
     
     public static void initfrmMenuPrincipal(){
         frmMenuPrincipal vista = new frmMenuPrincipal();
-        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista);
-
+        jpAddTutoria panel = new jpAddTutoria();
+        Tutoria modelo = new Tutoria();
+        //tienen que ir todos en orden
+        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista, panel, modelo);
+        
         vista.setVisible(true);
       
         

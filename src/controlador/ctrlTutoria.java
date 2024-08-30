@@ -2,8 +2,10 @@ package controlador;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import javax.swing.JOptionPane;
 import modelo.Tutoria;
 import vista.jpAddTutoria;
+
 
 
 public class ctrlTutoria implements MouseListener{
@@ -17,18 +19,20 @@ public class ctrlTutoria implements MouseListener{
         this.modelo = modelo;
         this.vista = vista;
         
+        modelo.Mostrar(vista.jtbTutoria);
+        
+        
         vista.btnAgregar.addMouseListener(this);
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
         
-        if(e.getSource()== vista.btnAgregar){
-            modelo.setNombreTutoria(vista.txtNombre.getText());
-            modelo.setDescripcionTutoria(vista.txtDescripcion.getText());
+      //  if(e.getSource()== vista.btnAgregar){
             
-            modelo.GuardarTuto();
-        }
+            
+
+      // }
     }
 
     @Override

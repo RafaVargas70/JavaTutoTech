@@ -1,20 +1,27 @@
 package controlador;
 
+import java.awt.Panel;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import modelo.Tutoria;
 import vista.frmMenuPrincipal;
 import vista.jpAddTutoria;
 
 public class ctrlMenuPrincipal implements MouseListener{
     
     //mandar a llamar las capas
-    frmMenuPrincipal vista;
+    private frmMenuPrincipal vista;
+    private jpAddTutoria panel;
+    private Tutoria modelo;
     
     //constructor
-    public ctrlMenuPrincipal(frmMenuPrincipal Vista){
+    public ctrlMenuPrincipal(frmMenuPrincipal Vista, jpAddTutoria Panel, Tutoria Modelo){
         this.vista = Vista;
+        this.panel = Panel;
+        this.modelo = Modelo;
         
         vista.btnIrTutoria.addMouseListener(this);
+        panel.btnAgregar.addMouseListener(this);
     }
 
     @Override
@@ -27,6 +34,15 @@ public class ctrlMenuPrincipal implements MouseListener{
             vista.jpContenedor.add(objAddTuto);
             vista.jpContenedor.revalidate();
             vista.jpContenedor.repaint();
+        }
+        
+        
+        if(e.getSource() == panel.btnAgregar){
+            modelo.setNombreTutoria(panel.txtNombre.getText());
+            modelo.setDescripcionTutoria(panel.txtDescripcion.getText());
+            
+            
+            modelo.GuardarTuto();
         }
     }
 
