@@ -60,8 +60,7 @@ public class jpAddTutoria extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        txtNombre.setBackground(new java.awt.Color(255, 255, 255));
-        txtNombre.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        txtNombre.setBorder(javax.swing.BorderFactory.createTitledBorder(null));
         add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 100, 550, 40));
 
         btnEditar.setBackground(new java.awt.Color(19, 82, 92));
@@ -77,14 +76,12 @@ public class jpAddTutoria extends javax.swing.JPanel {
         btnBuscarimg.setBackground(new java.awt.Color(19, 82, 92));
         btnBuscarimg.setFont(new java.awt.Font("Dubai", 0, 18)); // NOI18N
         btnBuscarimg.setText("Buscar");
-        add(btnBuscarimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 260, 90, 30));
+        add(btnBuscarimg, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 260, 90, 30));
 
-        txtDescripcion.setBackground(new java.awt.Color(255, 255, 255));
-        txtDescripcion.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        txtDescripcion.setBorder(javax.swing.BorderFactory.createTitledBorder(null));
         add(txtDescripcion, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, 550, 40));
 
         jLabel6.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Descripción de la tutoría");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, -1, -1));
 
@@ -104,7 +101,6 @@ public class jpAddTutoria extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 910, 280));
 
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("¿Desea buscar una imagen?");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, -1, -1));
 
@@ -114,12 +110,10 @@ public class jpAddTutoria extends javax.swing.JPanel {
         add(btnAgregar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 310, 120, 60));
 
         jLabel5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Nombre de la tutoría");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Añadir una tutoría nueva");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, -1, -1));
