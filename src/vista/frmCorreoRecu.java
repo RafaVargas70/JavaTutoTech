@@ -39,7 +39,10 @@ public class frmCorreoRecu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+<<<<<<< HEAD
         setPreferredSize(new java.awt.Dimension(1229, 780));
+=======
+>>>>>>> CarlosH
         setResizable(false);
 
         Bg.setBackground(new java.awt.Color(28, 82, 100));
@@ -80,8 +83,11 @@ public class frmCorreoRecu extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
+<<<<<<< HEAD
         RecuLabel.getAccessibleContext().setAccessibleName("Recupera tu contraseña");
 
+=======
+>>>>>>> CarlosH
         emailLogoLabel.setFont(new java.awt.Font("Roboto Thin", 0, 18)); // NOI18N
         emailLogoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/img/EmailLogo.png"))); // NOI18N
 
