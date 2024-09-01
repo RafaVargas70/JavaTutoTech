@@ -10,4 +10,15 @@ package modelo;
  */
 public class UsuarioModelo {
     
+    private String idUsuario;
+    private String NombreUsuario;
+    private int EdadUsuario;
+    private String CorreoUsuario;
+    private String ContrasenaUsuario;
+    private String FotoUsuario;
+    private Number IdRole;
+    
+    
+    
+    
 }
