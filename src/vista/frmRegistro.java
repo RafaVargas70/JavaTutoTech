@@ -221,8 +221,8 @@ public class frmRegistro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnIrALogin;
-    private javax.swing.JButton btnRegistrarme;
+    public javax.swing.JButton btnIrALogin;
+    public javax.swing.JButton btnRegistrarme;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -231,10 +231,10 @@ public class frmRegistro extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JTextField txtContraseña;
-    private javax.swing.JTextField txtCorreo;
+    public javax.swing.JTextField txtContraseña;
+    public javax.swing.JTextField txtCorreo;
     private javax.swing.JLabel txtIrRegistro;
-    private javax.swing.JTextField txtNombre;
+    public javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
 
     public Object getBtnRegistrarme() {
