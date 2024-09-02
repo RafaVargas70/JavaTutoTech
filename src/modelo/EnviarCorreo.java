@@ -9,5 +9,9 @@ package modelo;
  * @author Steven
  */
 public class EnviarCorreo {
+
+    public static void enviarCorreo(String recipient, String subject, String content) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

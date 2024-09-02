@@ -32,14 +32,13 @@ public class frmCorreoRecu extends javax.swing.JFrame {
         RecuLabel = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         emailLogoLabel = new javax.swing.JLabel();
-        btnEnviarCorreo = new javax.swing.JButton();
+        btnEnviarCodigo = new javax.swing.JButton();
         txtCorreo = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
         TutoTechLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(1229, 780));
         setResizable(false);
 
         Bg.setBackground(new java.awt.Color(28, 82, 100));
@@ -80,18 +79,16 @@ public class frmCorreoRecu extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
-        RecuLabel.getAccessibleContext().setAccessibleName("Recupera tu contraseña");
-
         emailLogoLabel.setFont(new java.awt.Font("Roboto Thin", 0, 18)); // NOI18N
         emailLogoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/img/EmailLogo.png"))); // NOI18N
 
-        btnEnviarCorreo.setBackground(new java.awt.Color(0, 153, 204));
-        btnEnviarCorreo.setFont(new java.awt.Font("Roboto Light", 0, 24)); // NOI18N
-        btnEnviarCorreo.setForeground(new java.awt.Color(255, 255, 255));
-        btnEnviarCorreo.setText("Enviar");
-        btnEnviarCorreo.addActionListener(new java.awt.event.ActionListener() {
+        btnEnviarCodigo.setBackground(new java.awt.Color(0, 153, 204));
+        btnEnviarCodigo.setFont(new java.awt.Font("Roboto Light", 0, 24)); // NOI18N
+        btnEnviarCodigo.setForeground(new java.awt.Color(255, 255, 255));
+        btnEnviarCodigo.setText("Enviar");
+        btnEnviarCodigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEnviarCorreoActionPerformed(evt);
+                btnEnviarCodigoActionPerformed(evt);
             }
         });
 
@@ -112,7 +109,7 @@ public class frmCorreoRecu extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnEnviarCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnEnviarCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(194, 194, 194))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(68, 68, 68)
@@ -134,7 +131,7 @@ public class frmCorreoRecu extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(63, 63, 63)
-                .addComponent(btnEnviarCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnEnviarCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(78, Short.MAX_VALUE))
         );
 
@@ -164,9 +161,9 @@ public class frmCorreoRecu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtCorreoActionPerformed
 
-    private void btnEnviarCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarCorreoActionPerformed
+    private void btnEnviarCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarCodigoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnEnviarCorreoActionPerformed
+    }//GEN-LAST:event_btnEnviarCodigoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -204,15 +201,15 @@ public class frmCorreoRecu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel Bg;
-    private javax.swing.JLabel RecuLabel;
-    private javax.swing.JLabel TutoTechLabel;
-    private javax.swing.JButton btnEnviarCorreo;
-    private javax.swing.JLabel emailLogoLabel;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
+    public javax.swing.JPanel Bg;
+    public javax.swing.JLabel RecuLabel;
+    public javax.swing.JLabel TutoTechLabel;
+    public javax.swing.JButton btnEnviarCodigo;
+    public javax.swing.JLabel emailLogoLabel;
+    public javax.swing.JPanel jPanel1;
+    public javax.swing.JPanel jPanel2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JTextField txtCorreo;
+    public javax.swing.JTextField txtCorreo;
     // End of variables declaration//GEN-END:variables
 }
