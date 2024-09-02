@@ -4,6 +4,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <file>file:/C:/Users/USUARIO/Desktop/PTCTutoTech/src/modelo/Tutoria.java</file>
             <file>file:/C:/Users/USUARIO/Desktop/PTCTutoTech/src/controlador/ctrlMenuPrincipal.java</file>
@@ -19,6 +20,11 @@
             <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/jpAddTutoria.java</file>
             <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmMenuPrincipal.java</file>
 >>>>>>> 8660f4196ce04234b4f58789bea5c4985df2c0b2
+=======
+            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/jpAddTutoria.java</file>
+            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/controlador/ctrlMenuPrincipal.java</file>
+            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmMenuPrincipal.java</file>
+>>>>>>> master
         </group>
     </open-files>
 </project-private>
