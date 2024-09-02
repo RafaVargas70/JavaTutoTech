@@ -54,6 +54,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(37, 78, 97));
 
+        btnIrTutoria.setBackground(new java.awt.Color(0, 153, 204));
         btnIrTutoria.setText("Agregar Tutoría");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/img/Imagen1.png"))); // NOI18N
