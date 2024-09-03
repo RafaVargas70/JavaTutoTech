@@ -67,8 +67,7 @@ public class ctrlMenuPrincipal implements MouseListener{
             
             
             
-            
-            
+                   
             //validaciones---------------------------------------------------------------------------------------
             if(panel.txtNombre.getText().isEmpty() || panel.txtDescripcion.getText().isEmpty()){
                 //esto es un alert

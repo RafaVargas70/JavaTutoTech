@@ -2,19 +2,40 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
 <<<<<<< HEAD
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/modelo/UsuarioModelo.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/frmCorreoRecu.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/RegistroControlador.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/controlador/CtrlIngresoCorreo.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/frmRegistro.java</file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/ClaseConexion.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/jpAddTutoria.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/frmRegistro.java</file>
 =======
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmCorreoRecu.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/jpAddTutoria.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmMenuPrincipal.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmCambioContraseña.java</file>
->>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
+=======
+>>>>>>> CarlosH
+=======
+>>>>>>> CarlosH
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/Usuario.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/ClaseConexion.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/jpAddTutoria.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/ControladorRegistro.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/frmRegistro.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/UsuarioDAO.java</file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> CarlosH
+=======
+>>>>>>> CarlosH
+=======
+=======
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/modelo/ClaseConexion.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/jpAddTutoria.java</file>
+            <file>file:/C:/Users/Carlos%20H/OneDrive%20-%20INSTITUTO%20TÉCNICO%20RICALDONE/Escritorio/JavaTutoTech/src/vista/frmRegistro.java</file>
+>>>>>>> e539dab114bf5090fe47d20e8d7039ac7b72de20
+>>>>>>> CarlosH
         </group>
+=======
+        <group/>
+>>>>>>> Pablo
     </open-files>
 </project-private>
