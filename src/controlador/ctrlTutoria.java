@@ -21,10 +21,8 @@ public class ctrlTutoria implements MouseListener{
         
         modelo.Mostrar(vista.jtbTutoria);
         
-        
         vista.btnAgregar.addMouseListener(this);
     }
-
     @Override
     public void mouseClicked(MouseEvent e) {
         
