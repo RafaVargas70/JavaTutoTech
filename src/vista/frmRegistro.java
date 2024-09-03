@@ -536,7 +536,7 @@ public class frmRegistro extends javax.swing.JPanel {
     } else {
         System.out.println("Error al registrar el usuario.");
     }
-      
+      //no se que ha pasado xdxdxdxdxddxddxxddx intentando conseguir el commit
     
     }//GEN-LAST:event_btnRegistroActionPerformed
 
