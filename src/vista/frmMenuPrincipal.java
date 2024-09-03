@@ -32,7 +32,6 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista, panel, modelo);
         
         vista.setVisible(true);
-      
         
     }
     
