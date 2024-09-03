@@ -3,6 +3,7 @@ package controlador;
 import java.awt.Panel;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import modelo.Tutoria;
 import vista.frmMenuPrincipal;
@@ -14,6 +15,10 @@ public class ctrlMenuPrincipal implements MouseListener{
     private frmMenuPrincipal vista;
     private jpAddTutoria panel;
     private Tutoria modelo;
+
+    public ctrlMenuPrincipal(frmMenuPrincipal menu) {
+        vista = menu;
+    }
     
     //constructor
     public ctrlMenuPrincipal(frmMenuPrincipal Vista, jpAddTutoria Panel, Tutoria Modelo){
@@ -25,6 +30,13 @@ public class ctrlMenuPrincipal implements MouseListener{
         panel.btnAgregar.addMouseListener(this);
         modelo.Mostrar(panel.jtbTutoria);
         panel.btnEliminar.addMouseListener(this);
+    }
+    
+    public void abrirApp(){
+        vista.setTitle("Dashboard");
+        vista.setLocationRelativeTo(null);
+        vista.setVisible(true);
+        vista.setExtendedState(JFrame.NORMAL);
     }
 
     @Override
