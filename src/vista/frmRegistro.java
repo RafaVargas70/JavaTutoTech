@@ -68,6 +68,7 @@ public class frmRegistro extends javax.swing.JFrame {
 =======
 public class frmRegistro extends javax.swing.JPanel {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
 
 =======
@@ -78,6 +79,14 @@ public class frmRegistro extends javax.swing.JPanel {
 public class frmRegistro extends javax.swing.JPanel {
     private final ControladorRegistro controlador;
     
+>>>>>>> CarlosH
+=======
+    private final ControladorRegistro controlador;
+    
+=======
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
+
+>>>>>>> e539dab114bf5090fe47d20e8d7039ac7b72de20
 >>>>>>> CarlosH
     /**
      * Creates new form frmRegistro
