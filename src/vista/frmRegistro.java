@@ -1,17 +1,93 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+<<<<<<< HEAD
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package vista;
+import Modelo.ControladorRegistro;
+
+import modelo.UsuarioModelo;
+
+=======
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
 package vista;
 import Modelo.ControladorRegistro;
 
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
 /**
  *
  * @author Carlos H
  */
+<<<<<<< HEAD
+<<<<<<< HEAD
+public class frmRegistro extends javax.swing.JFrame {
+    public frmRegistro() {
+        initComponents();
+        UsuarioModelo modelo = new UsuarioModelo();
+        RegistroControlador controlador = new RegistroControlador(this, modelo);
+    }
+
+    // Métodos para obtener los componentes
+    public javax.swing.JButton getBtnRegistrarme() {
+        return btnRegistrarme;
+    }
+
+    public javax.swing.JButton getBtnIrALogin() {
+        return btnIrALogin;
+    }
+
+    public javax.swing.JTextField getTxtContraseña() {
+        return txtContraseña;
+    }
+
+    public javax.swing.JTextField getTxtCorreo() {
+        return txtCorreo;
+    }
+
+    public javax.swing.JTextField getTxtNombre() {
+        return txtNombre;
+    }
+
+    public javax.swing.JRadioButton getjRadioButton1() {
+        return jRadioButton1;
+    }
+
+    public javax.swing.JRadioButton getjRadioButton2() {
+        return jRadioButton2;
+    }
+
+    private void initComponents() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Object getBtnIrALogin() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
+=======
+public class frmRegistro extends javax.swing.JPanel {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
+
+=======
+    private final ControladorRegistro controlador;
+    
+>>>>>>> CarlosH
+=======
 public class frmRegistro extends javax.swing.JPanel {
     private final ControladorRegistro controlador;
     
+>>>>>>> CarlosH
+=======
+    private final ControladorRegistro controlador;
+    
+=======
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
+
+>>>>>>> e539dab114bf5090fe47d20e8d7039ac7b72de20
+>>>>>>> CarlosH
     /**
      * Creates new form frmRegistro
      */
@@ -19,6 +95,10 @@ public class frmRegistro extends javax.swing.JPanel {
         initComponents();
         controlador = new ControladorRegistro();
     }
+<<<<<<< HEAD
+    
+=======
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -29,6 +109,181 @@ public class frmRegistro extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
+        btnRegistrarme = new javax.swing.JButton();
+        txtContraseña = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        txtNombre = new javax.swing.JTextField();
+        txtCorreo = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        txtIrRegistro = new javax.swing.JLabel();
+        btnIrALogin = new javax.swing.JButton();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(37, 78, 97));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnRegistrarme.setText("Registrarme");
+        jPanel1.add(btnRegistrarme, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 240, 70));
+
+        txtContraseña.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtContraseñaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, 469, 52));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        jLabel1.setText("Registro TutoTech");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, -1, -1));
+
+        txtNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNombreActionPerformed(evt);
+            }
+        });
+        jPanel1.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 469, 52));
+
+        txtCorreo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCorreoActionPerformed(evt);
+            }
+        });
+        jPanel1.add(txtCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 469, 52));
+
+        jLabel2.setText("Contraseña:");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 270, -1, -1));
+
+        jLabel3.setText("Nombre:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
+
+        jLabel4.setText("Correo:");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 200, -1, -1));
+
+        txtIrRegistro.setText("¿Ya tienes una cuenta?");
+        jPanel1.add(txtIrRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 470, -1, 20));
+
+        btnIrALogin.setText("Iniciar sesión");
+        btnIrALogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIrALoginActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnIrALogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 500, -1, -1));
+
+        jRadioButton1.setText("Tutor");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, -1, -1));
+
+        jRadioButton2.setText("Tutorado");
+        jPanel1.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 360, -1, -1));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 894, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 648, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void btnIrALoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIrALoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnIrALoginActionPerformed
+
+    private void txtCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCorreoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCorreoActionPerformed
+
+    private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNombreActionPerformed
+
+    private void txtContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseñaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtContraseñaActionPerformed
+
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(frmRegistro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(frmRegistro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(frmRegistro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(frmRegistro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new frmRegistro().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton btnIrALogin;
+    public javax.swing.JButton btnRegistrarme;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    public javax.swing.JTextField txtContraseña;
+    public javax.swing.JTextField txtCorreo;
+    private javax.swing.JLabel txtIrRegistro;
+    public javax.swing.JTextField txtNombre;
+    // End of variables declaration//GEN-END:variables
+
+    public Object getBtnRegistrarme() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Object getBtnIrALogin() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+=======
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
@@ -46,6 +301,24 @@ public class frmRegistro extends javax.swing.JPanel {
         txtContraseña = new javax.swing.JTextField();
         TutoTechLabel = new javax.swing.JLabel();
 
+=======
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        RecuLabel = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
+        emailLogoLabel = new javax.swing.JLabel();
+        btnRegistro = new javax.swing.JButton();
+        txtCorreo = new javax.swing.JTextField();
+        jSeparator2 = new javax.swing.JSeparator();
+        txtNombre = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        txtEdad = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        txtContraseña = new javax.swing.JTextField();
+        TutoTechLabel = new javax.swing.JLabel();
+
+>>>>>>> CarlosH
         jPanel1.setBackground(new java.awt.Color(28, 82, 100));
 
         jPanel2.setBackground(new java.awt.Color(238, 245, 255));
@@ -311,4 +584,5 @@ public class frmRegistro extends javax.swing.JPanel {
     private javax.swing.JTextField txtEdad;
     private javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
+>>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
 }
