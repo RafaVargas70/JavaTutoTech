@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-<<<<<<< HEAD
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/modelo/UsuarioModelo.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/frmCorreoRecu.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/RegistroControlador.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/controlador/CtrlIngresoCorreo.java</file>
-            <file>file:/C:/Users/Steven/JavaProjects/JavaTutoTech/src/vista/frmRegistro.java</file>
-=======
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmCorreoRecu.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/jpAddTutoria.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmMenuPrincipal.java</file>
-            <file>file:/C:/Users/Estudiante/Desktop/JavaTutoTech/src/vista/frmCambioContraseña.java</file>
->>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
-        </group>
-    </open-files>
 </project-private>
