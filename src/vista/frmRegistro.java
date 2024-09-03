@@ -4,6 +4,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package vista;
+import Modelo.ControladorRegistro;
 
 import modelo.UsuarioModelo;
 
@@ -18,6 +19,7 @@ import Modelo.ControladorRegistro;
  *
  * @author Carlos H
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 public class frmRegistro extends javax.swing.JFrame {
     public frmRegistro() {
@@ -72,6 +74,11 @@ public class frmRegistro extends javax.swing.JPanel {
     private final ControladorRegistro controlador;
     
 >>>>>>> CarlosH
+=======
+public class frmRegistro extends javax.swing.JPanel {
+    private final ControladorRegistro controlador;
+    
+>>>>>>> CarlosH
     /**
      * Creates new form frmRegistro
      */
@@ -96,6 +103,7 @@ public class frmRegistro extends javax.swing.JPanel {
 <<<<<<< HEAD
         buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         btnRegistrarme = new javax.swing.JButton();
         txtContraseña = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
@@ -284,6 +292,24 @@ public class frmRegistro extends javax.swing.JPanel {
         txtContraseña = new javax.swing.JTextField();
         TutoTechLabel = new javax.swing.JLabel();
 
+=======
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        RecuLabel = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
+        emailLogoLabel = new javax.swing.JLabel();
+        btnRegistro = new javax.swing.JButton();
+        txtCorreo = new javax.swing.JTextField();
+        jSeparator2 = new javax.swing.JSeparator();
+        txtNombre = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        txtEdad = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        txtContraseña = new javax.swing.JTextField();
+        TutoTechLabel = new javax.swing.JLabel();
+
+>>>>>>> CarlosH
         jPanel1.setBackground(new java.awt.Color(28, 82, 100));
 
         jPanel2.setBackground(new java.awt.Color(238, 245, 255));

@@ -33,10 +33,14 @@
       <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Component id="jPanel1" alignment="1" pref="894" max="32767" attributes="0"/>
 =======
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="200" max="32767" attributes="0"/>
+=======
+          <Group type="102" alignment="0" attributes="0">
+>>>>>>> CarlosH
 =======
           <Group type="102" alignment="0" attributes="0">
 >>>>>>> CarlosH
@@ -63,6 +67,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <Color blue="61" green="4e" red="25" type="rgb"/>
@@ -221,6 +226,9 @@
 =======
           <Color blue="64" green="52" red="1c" type="rgb"/>
 >>>>>>> CarlosH
+=======
+          <Color blue="64" green="52" red="1c" type="rgb"/>
+>>>>>>> CarlosH
         </Property>
       </Properties>
 
@@ -266,12 +274,15 @@
               <Dimension value="[635, 637]"/>
             </Property>
 <<<<<<< HEAD
+<<<<<<< HEAD
           </AccessibilityProperties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistroActionPerformed"/>
           </Events>
 >>>>>>> fb26d5fcbfe66f0c259c00bf6a70234e64a3bfbd
 =======
+=======
+>>>>>>> CarlosH
           </Properties>
 
           <Layout>
@@ -551,6 +562,9 @@
               <Dimension value="[0, 0]"/>
             </Property>
           </Properties>
+<<<<<<< HEAD
+>>>>>>> CarlosH
+=======
 >>>>>>> CarlosH
         </Component>
       </SubComponents>
